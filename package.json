@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "dev": "concurrently \"yarn android\" \"yarn --cwd web dev\""
+    "dev": "concurrently \"yarn android\" \"yarn --cwd web dev\"",
+    "log": "react-native log-android"
   },
   "dependencies": {
     "react": "18.2.0",
